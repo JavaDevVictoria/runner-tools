@@ -1,0 +1,16 @@
+span.result {
+    font-weight: bold;
+}
+
+input {
+    margin: 2px;
+}
+
+body {
+    background: none; 
+    padding: 20px;
+    font-style: normal;
+    text-transform: none;
+    background-color: #CECECE;
+    font-size: 1.5em;
+}
