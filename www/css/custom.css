@@ -4,25 +4,15 @@ body {
     font-style: normal;
     text-transform: none;
     background-color: #CECECE;
-    
-}
-body, input {
-   font-size: 2em;
 }
 
-
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    body, input {
-        font-size: 2em;
-    }
-    #wrapper {
-        width: 500px;
-        height: 300px;
-    }
+input {
+    margin: 2px;
+    font-size: 1em;
 }
 
 #wrapper {
+    font-size: 2em;
     position: absolute;
     top: 10%;
     left: 10%;
@@ -32,13 +22,8 @@ body, input {
 }
 
 
-
 span.result {
     font-weight: bold;
-}
-
-input {
-    margin: 2px;
 }
 
 #km {
