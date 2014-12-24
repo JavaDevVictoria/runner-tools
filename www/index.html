@@ -11,35 +11,34 @@
         <title>Runners tools</title>
     </head>
     <body onload="calculateValues()">
-    <!--<body  onload="onLoad();">-->
-		<h1>RUNNER TOOLS</h1>
-		<div>
-			<h2>Velocity calculator</h2>
+	  <div id="wrapper">
+		<!--<body  onload="onLoad();">-->
+		<div id="header">
+            <img src="icon.png" alt="Runner tools" /><br/><i>Velocity calculator</i>
+		</div>
+		
+		<div id="main" >
+			<p></p>
             <div id="mins">
-                If I run <input id="km" size="4" maxlength="6" pattern="\d*" value="1.0" onchange="calculateValues()"/> km: <br/>
+                If I run 
+                <input type="number" id="km" size="4" maxlength="6" pattern="\d*" value="1.0" onkeyup="calculateValues()" min="0.001" /> km <br/>
             </div>
             <div id="time">
                 in
-                <input id="input_m" size="2" value="5" maxlength="3" pattern="\d*" onchange="calculateValues()"/>m
-                <input id="input_s" size="2" value="00" maxlength="2" pattern="\d*" onchange="calculateValues()" />s,
+                <input  type="number" id="input_m" size="2" value="5" maxlength="3" pattern="\d*" onkeyup="calculateValues()" min="0" />m
+                <input  type="number" id="input_s" size="2" value="00" maxlength="2" pattern="\d*" onkeyup="calculateValues()" min="0" max="59" />s,
             </div>
             <div id="vel">
                 my velocity is <span id="kmh" class="result">-</span> Km/h (<span id="ms" class="result">-</span> m/s)
             </div>
 		</div>
-        <!--<div class="app" style="display:none">
-            <h1>TV ITALIANE</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-			
-        </div> -->
-        <script type="text/javascript" src="cordova.js"></script>
-        <!--<script type="text/javascript" src="js/index.js"></script>-->
-        <script type="text/javascript" src="js/main.js"></script>
-<!--        NOT WORKING !!<script type="text/javascript">
-            app.initialize();
-        </script>-->
+		
+		<div id="footer">
+			Developed by EC <a href="http://www.phpntips.com" target="_blank">www.phpntips.com</a>
+		</div>
+       
+	  </div>
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

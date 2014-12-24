@@ -1,16 +1,47 @@
+body {
+    background: none; 
+    padding: 25px;
+    font-style: normal;
+    text-transform: none;
+    background-color: #CECECE;
+}
+
+#wrapper {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 260px;
+    height: 370px;
+    padding: 10px;
+    
+}
+
 span.result {
     font-weight: bold;
 }
 
 input {
     margin: 2px;
+    font-size: 18px;
 }
 
-body {
-    background: none; 
-    padding: 20px;
-    font-style: normal;
-    text-transform: none;
-    background-color: #CECECE;
-    font-size: 3em;
+#km {
+    width: 80px;
 }
+
+#input_m, #input_s {
+    width: 60px;
+}
+
+#header {
+}
+
+#main, #header {
+    font-size: 20px;
+}
+
+#footer {
+    margin-top: 80px;
+    font-size: 15px;
+}
+
