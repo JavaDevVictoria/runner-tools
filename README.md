@@ -1,7 +1,6 @@
 sample app to play with phonegap
 
 Icon: thanks to
-
 http://www.flaticon.com/free-icon/runer-silhouette-running-fast_55240
 
 

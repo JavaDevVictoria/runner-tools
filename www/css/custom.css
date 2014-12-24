@@ -10,6 +10,14 @@ body, input {
    font-size: 30px;
 }
 
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    #wrapper {
+        font-size: 2em;
+    }
+}
+
 #wrapper {
     position: absolute;
     top: 10%;
@@ -18,6 +26,8 @@ body, input {
     height: 400px;
     padding:5px;
 }
+
+
 
 span.result {
     font-weight: bold;
